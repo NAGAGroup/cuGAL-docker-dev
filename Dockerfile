@@ -5,4 +5,4 @@ RUN dnf install gnuplot qt5-qtsvg qt5-qtbase -y
 
 #install extra tools
 RUN dnf install python39 librevenge-gdb git clang-tools-extra perf -y
-RUN dnf --enablerepo=powertools install ninja-build -y
+RUN dnf install ninja-build -y
