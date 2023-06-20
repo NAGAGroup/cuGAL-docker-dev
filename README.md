@@ -5,7 +5,7 @@ Usage:
 
 Launch container as daemon
 ```shell
-podman run --rm --security-opt=label=disable -d -p 2222:2222 ghcr.io/nagagroup/naga-docker-dev:12.0.1
+podman run --rm --security-opt=label=disable -d -p 2222:2222 ghcr.io/nagagroup/naga-docker-dev:latest
 ```
 
 SSH into it:
