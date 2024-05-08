@@ -1,0 +1,30 @@
+[project]
+name = "pixi"
+channels = ["conda-forge"]
+platforms = ["linux-64"]
+
+[dependencies]
+codespell = ">=2.2.6,<2.3"
+cmake = ">=3.28.3,<3.29"
+compilers = ">=1.7.0,<1.8"
+cmake-format = ">=0.6.13,<0.7"
+npx = ">=0.1.1,<0.2"
+doxygen = ">=1.10.0,<1.11"
+ninja = ">=1.11.1,<1.12"
+ghostscript = ">=10.2.1,<10.3"
+texlive-core = ">=20230313,<20230314"
+pip = ">=24.0,<25"
+cppcheck = ">=2.13.1,<2.14"
+nvim = ">=0.9.5,<0.10"
+prettier = ">=3.2.5,<3.3"
+cuda = ">=12.3.2,<12.4"
+gdb = ">=14.2,<15"
+clang-tools = ">=15.0.7,<15.1"
+python = ">=3.12.2,<3.13"
+gmp = ">=6.3.0,<6.4"
+wget = ">=1.20.3,<1.21"
+vtk = ">=9.2.6,<9.3"
+mpi = ">=1.0,<2"
+cgal-cpp = ">=5.6.1,<5.7"
+nodejs = ">=20.9.0,<20.10"
+tbb-devel = ">=2021.11.0,<2021.12"

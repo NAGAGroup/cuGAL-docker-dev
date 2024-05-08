@@ -1,0 +1,4 @@
+devenv/.pixi/
+devenv/pixi.lock
+devenv/llvm-source/
+devenv/llvm-build/
